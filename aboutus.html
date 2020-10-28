@@ -1,0 +1,82 @@
+<?php
+
+$text= "\n-----------------\n Nom:".$_POST["Nom"]."\n Prénom:".$_POST["Prenom"]."\n E-mail:".$_POST["email"]."\n Contre:".$_POST["contre"]."\n Plainte:".$_POST["Plainte"];
+file_put_contents('plaintes.txt', $text, FILE_APPEND);
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="img/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>YahyaniTours</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info" id="info">
+        Appelez-nous au : +1 (514) 863-2918 📞| De 8h à 21h | 7j/7 
+    </div>
+    <div class="nav">
+        <ul id="header">
+            <li><a href="plainte.php">Plainte</a></li>
+            <li><a href="Cities.php?qst=Ottawa">Ottawa</a></li>
+            <li><a href="Cities.php?qst=Montreal">Montreal</a></li>
+            <li><a href="Cities.php?qst=Hamilton">Hamilton</a></li>
+            <li><a href="Cities.php?qst=Vancouver">Vancouver</a></li>
+            <li><a href="Cities.php?qst=Toronto">Toronto</a></li>
+            <li><a href="index.html">Accueil</a></li>
+            <li style="float:left"><a href="index.html">Yahyani<span class="text-primary">Tours<i class="ri-compass-discover-line"></i></span></a></li>
+          </ul>
+    </div>
+   
+    <div class="section-0" style="left: 0;right: 0;margin: 15px;">
+       <div class="section-4 paragraph" style="text-align: left;">
+        <h1>LEGALESE</h1><br>
+           <p>
+            Please read the below Waiver & Release of Claims carefully. If you are booking a tour for someone other than yourself, please forward this to them.
+            <br>
+            By purchasing tickets for and/or participating in the walking tours (“Tours”) offered by Tour Guys (the “Company”), and in consideration for my being allowed to participate in the Tours, the receipt and sufficiency of which is hereby acknowledged, I, and if I am not yet 18 years old, my parent or legal guardian (individually and collectively referred to below in the first person singular) agree to be bound by each of the following provisions of this waiver, release of liability, indemnification, consent to medical attention and grant of rights (“Waiver”) :
+            <br>
+            1. Voluntary Participation. I understand and confirm that my participation in the Tours is voluntary. I am in good health and suffer from no physical or mental condition that would make me especially susceptible to injury or disability while participating in the Tours.
+            <br>
+            2. Comprehension of Risk. I fully comprehend and accept all of the risks associated with my participation in the Tours including, without limitation, injury or death resulting from exposure to unfavorable weather conditions, food sickness, allergic reactions, choking, and injuries arising from self-inflicted accidents or mishaps, other participants, motor vehicles, and pedestrians. I understand that the Tours take place in public venues under conditions largely beyond Company’s control.
+            <br>
+            3. Assumption of Risk. I assume all risks, known and unknown, foreseeable and unforeseeable, in any way connected with my participation in the Tours. I accept personal responsibility for any liability, injury, loss, or damage in any way connected with my participation in the Tours.
+            <br>
+            4. Release of Liability; Limitation of Damages. I hereby forever and unconditionally release Company and its affiliated entities, parent companies, subsidiaries, present and former employees, owners, officers, members, managers, partners, contractors, insurers, shareholders, and directors (collectively “Released Entities”), from any and all claims, actions, damages, liabilities, losses, costs, and expenses (including, without limitation, attorney’s fees) for death, injury, loss or damage of property, (collectively “Claims”) in any way arising out of my participation in the Tours, including, without limitation, any and all Claims resulting from the negligence of the Released Entities. Company’s liability to me will be limited to actual damages arising from Released Entities’ gross negligence or willful misconduct in the performance of their duties and responsibilities hereunder; provided, however, under no circumstance shall my damages in connection with my participation in the Tours be greater than $400. Recovery of such amount shall be my sole and exclusive remedy. All liability arising out of my participation in the Tours is cumulative and not per incident. In no event shall Company be liable for any special, incidental, punitive, or consequential damages or other indirect damages, even if Company has been informed of the possibility thereof.
+            <br>
+            5. Consent to Medical Treatment. I authorize Company to provide to me, through medical personnel of its choice, customary medical assistance, transportation, and emergency medical services. This consent does not impose a duty upon Company to provide such assistance, transportation, or services.
+            <br>
+            6. Severability. If any provision of this Waiver is for any reason declared to be invalid or unenforceable, the validity and enforceability of the remaining provisions will not be affected. The invalid or unenforceable provision will be deemed modified to the extent necessary to render it valid and enforceable, and if no modification may render it valid and enforceable, this Waiver will be construed as if not containing such provision and the rights and obligations of the parties will be construed and enforced accordingly.
+            <br>
+            7. Promotional Release. I hereby grant to Company the unrestricted right and permission to copyright and use photographic portraits, pictures, video footage and/or audio recordings of my participation in the Tours, in which I may be included intact or in part, including the negatives, prints, transparencies or digital information relevant to such portraits (the “Material”). Company has the right to reproduce, exhibit, distribute, broadcast, digitize, edit, or otherwise use the Material, by any method and in any media, whether now existing or later created, without restriction throughout the world, by incorporating the Material into its website, publications, catalogues, brochures, books, magazines, or commercial, informational, educational, advertising, or promotional materials relating thereto (collectively, the “Works’). I agree that Company is and shall be the exclusive owner of all right, title, and interest, including copyright, in the Material and the Works. I further grant to Company an irrevocable, royalty-free, worldwide license to use my name, age, and hometown in connection with the Material and the Works.
+            <br>
+            THIS IS A WAIVER AND RELEASE OF LIABILITY. I HAVE READ this entire document. I UNDERSTAND THAT I HAVE GIVEN UP SUBSTANTIAL RIGHTS BY Agreeing to its provisions. By continuing to participate in the tours, I am indicating my voluntary agreement to the provisions of this WAIVER AND RELEASE OF LIABILITY. Participation in the tours by a person who is not yet 18 years old indicates that a parent or legal guardian has also read and consented to this waiver.
+            </p><br>
+            <h1>HUMAN LANGUAGE</h1> <br>
+            <p>
+            If you participate in one of our tours, you are agreeing to the following:
+            <br>
+            1. I am taking this tour voluntarily and am in good health.
+            <br>
+            2. If something bad happens to me during the tour, it’s not the company’s fault.
+            <br>
+            3. I accept personal responsibility for anything that happens to me, like if I get hurt or lose something.
+            <br>
+            4. I release the company and anyone working for it, including contractors, from any claims or liability for damages. Basically only if the company did something that was so stupid or intentional that it hurt me, will I stand to gain anything, and that anything is limited to $400.
+            <br>
+            5. If I get hurt or need medical attention, the company can arrange it, but it’s not their duty to do so.
+            <br>
+            6. If part of this waiver is deemed to be invalid or unenforceable, it doesn’t mean the whole thing is.
+            <br>
+            7. The company owns all materials produced on the tour. The company can use my image, likeness, recordings of me in any format to promote their tours or any other way they like without having to pay me anything for it, ever.
+            <br>
+            I totally understand this waiver stuff, and release the company from all liability. If there is someone coming with me who is under 18, a parent or legal guardian agrees to all this on their behalf.
+            </p>
+       </div>
+    </div>
+
+</body>
+</html>
