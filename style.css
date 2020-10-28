@@ -253,18 +253,6 @@ a {
     width: 100%;
 }
 
-
-/* for mobile screen view */
-
-@media screen and (max-width: 660px) {
-    .inner-footer {
-        display: initial;
-    }
-    .footer-items {
-        width: 100%;
-    }
-}
-
 .section-4 {
     margin: 5% 10%;
 }
