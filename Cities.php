@@ -58,7 +58,7 @@ if($city=="Toronto"){
             <li><a <?php if($city=="Vancouver"){echo 'class="active"';} ?> href="Cities.php?qst=Vancouver">Vancouver</a></li>
             <li><a <?php if($city=="Toronto"){echo 'class="active"';} ?> href="Cities.php?qst=Toronto">Toronto</a></li>
             <li><a href="index.html">Accueil</a></li>
-            <li style="float:left"><a href="index.html">Yahyani<span class="text-primary">Tours<i class="ri-compass-discover-line"></i></span></a></li>
+            <li class="logo"><a href="index.html">Yahyani<span class="text-primary">Tours<i class="ri-compass-discover-line"></i></span></a></li>
           </ul>
     </div>
     <div class="bg" style="background-image: url('<?= $img ?>');">
@@ -93,7 +93,7 @@ if($city=="Toronto"){
             <ul>
                 <a href="index.html"><li>Accueil</li></a>
                 <a href="plainte.php"><li>Plainte</li></a>
-                <a href="aboutus.html"><li>About</li></a>
+                <a href="apropos.html"><li>About</li></a>
             </ul>
         </div>
         <div class="footer-items">

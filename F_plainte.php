@@ -27,7 +27,7 @@ file_put_contents('plaintes.txt', $text, FILE_APPEND);
             <li><a href="Cities.php?qst=Vancouver">Vancouver</a></li>
             <li><a href="Cities.php?qst=Toronto">Toronto</a></li>
             <li><a href="index.html">Accueil</a></li>
-            <li style="float:left"><a href="index.html">Yahyani<span class="text-primary">Tours<i class="ri-compass-discover-line"></i></span></a></li>
+            <li class="logo"><a href="index.html">Yahyani<span class="text-primary">Tours<i class="ri-compass-discover-line"></i></span></a></li>
           </ul>
     </div>
    
@@ -52,7 +52,7 @@ file_put_contents('plaintes.txt', $text, FILE_APPEND);
             <ul>
                 <a href="index.html"><li>Accueil</li></a>
                 <a href="plainte.php"><li>Plainte</li></a>
-                <a href="aboutus.html"><li>About</li></a>
+                <a href="apropos.html"><li>About</li></a>
             </ul>
         </div>
         <div class="footer-items">
