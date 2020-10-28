@@ -157,7 +157,7 @@ a {
     margin: 0px 2%;
     border-radius: 15px;
     margin-top: -15px;
-    position: absolute;
+    position: relative;
 }
 
 .section-0.city {
@@ -244,6 +244,7 @@ a {
     background-color: var(--dark);
     padding: 15px;
     color: white;
+    margin-top: 15px;
 }
 
 .inner-footer {
