@@ -15,7 +15,7 @@ file_put_contents('plaintes.txt', $text, FILE_APPEND);
 </head>
 <body>
     <div class="info" id="info">
-        Appelez-nous au : +1 (514) 863-2918 📞| De 8h à 21h | 7j/7 
+        Appelez-nous au : +1 (514) 863-2918 📞| De 8h à 21h | 7j / 7j 
     </div>
     <div class="nav">
         <ul id="header">
@@ -30,8 +30,8 @@ file_put_contents('plaintes.txt', $text, FILE_APPEND);
           </ul>
     </div>
    
-    <div class="section-0" style="left: 0;right: 0;margin: 15px;">
-       <div class="section-4" style="text-align: center;">
+    <div class="section-0">
+       <div class="section-4">
            <h1><i class="ri-check-double-line"></i> La réclamation a été envoyée avec succès</h1>
        </div>
     </div>
@@ -43,11 +43,11 @@ file_put_contents('plaintes.txt', $text, FILE_APPEND);
     <div class="footer">
         <div class="inner-footer">
             <div class="footer-items">
-                <h1 style="margin-bottom: 5px;">Yahyani<span class="text-primary">Tours<i class="ri-compass-discover-line"></i></span></h1>
-                <p>WALKING TOURS IN FIVE<br>CANADIAN CITIES.</p>
+                <h1>Yahyani<span class="text-primary">Tours<i class="ri-compass-discover-line"></i></span></h1>
+                <p>VISITES À PIED DANS <br>CINQ VILLES CANADIENNES.</p>
             </div>
             <div class="footer-items">
-                <h3>Quick Links</h3>
+                <h3>Liens rapides</h3>
                 <ul>
                     <li><a href="index.html">
                         Accueil</a></li>
@@ -56,12 +56,12 @@ file_put_contents('plaintes.txt', $text, FILE_APPEND);
                         Plainte</a></li>
 
                     <li><a href="apropos.html">
-                        About</a></li>
+                        À propos</a></li>
 
                 </ul>
             </div>
             <div class="footer-items">
-                <h3>Cities</h3>
+                <h3>Villes</h3>
                 <ul>
                     <li><a href="Cities.php?qst=Toronto">
                         Toronto</a></li>
@@ -81,7 +81,7 @@ file_put_contents('plaintes.txt', $text, FILE_APPEND);
                 </ul>
             </div>
             <div class="footer-items">
-                <h3>Contact us</h3>
+                <h3>Contactez nous</h3>
                 <ul>
                     <li><i class="fa fa-map-marker"></i>Montreal Gouin Boulevard, Canada</li>
                     <li><i class="fa fa-envelope"></i>yahyaniTours@gmail.com</li>

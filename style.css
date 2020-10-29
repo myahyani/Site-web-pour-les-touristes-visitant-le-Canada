@@ -35,6 +35,10 @@ p {
     line-height: 1;
 }
 
+h1 {
+    margin-bottom: 5px;
+}
+
 hr {
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, .1);
@@ -167,7 +171,7 @@ a {
 }
 
 .section-0.city {
-    margin-top: -10%;
+    margin-top: -2%;
 }
 
 
@@ -204,18 +208,8 @@ a {
     width: 20%;
 }
 
-.container img {
-    -webkit-filter: brightness(100%);
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
-}
-
-.container img:hover {
-    -webkit-filter: brightness(70%);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+.wi-100 {
+    width: 100%;
 }
 
 .cities {
@@ -278,6 +272,13 @@ a {
     border: 1px solid #ced4da;
     border-radius: .25rem;
     margin-top: 5px;
+    width: 95%;
+    margin-bottom: 15px;
+}
+
+.wid-alite {
+    width: 98%;
+    text-align: right;
 }
 
 .inline {
@@ -329,8 +330,4 @@ tr:nth-child(even) {
 
 .h-80 {
     height: 80%;
-}
-
-.backgr {
-    background-color: white;
 }
