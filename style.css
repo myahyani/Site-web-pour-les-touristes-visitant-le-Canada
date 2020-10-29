@@ -15,7 +15,7 @@ html {
 }
 
 .logo {
-    float: left
+    float: left !important;
 }
 
 body {
@@ -48,12 +48,13 @@ hr {
 /* info */
 
 .info {
-    position: relative;
     z-index: 1;
     width: 100%;
     background-color: var(--white);
     text-align: center;
     padding: 10px 0px;
+    position: fixed;
+    top: 0;
 }
 
 
@@ -72,6 +73,13 @@ a {
     text-decoration: none;
 }
 
+.nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 40px;
+}
+
 .nav ul {
     margin: 0;
     padding: 0;
@@ -83,11 +91,6 @@ a {
     text-align: center;
     display: block;
     padding: 14px 16px;
-}
-
-.sticky {
-    position: fixed;
-    top: 0 !important;
 }
 
 .nav ul li {
@@ -107,7 +110,7 @@ a {
 
 .bg {
     background-image: url("img/img1.jpg");
-    height: 90%;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -154,10 +157,13 @@ a {
     background-color: var(--white);
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
     padding: 20px;
-    margin: 0px 2%;
     border-radius: 15px;
-    margin-top: -15px;
     position: relative;
+    margin: 100px 15px 15px 15px;
+}
+
+.m-n {
+    margin-top: -15px;
 }
 
 .section-0.city {
@@ -225,6 +231,7 @@ a {
 .btn-primary,
 .btn-primary:hover {
     background-color: var(--teal);
+    margin-right: 10px;
 }
 
 .team {
@@ -254,7 +261,9 @@ a {
 }
 
 .section-4 {
-    margin: 5% 10%;
+    margin: 4%;
+    text-align: left;
+    text-align: justify;
 }
 
 .input-text {
@@ -299,16 +308,29 @@ a {
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 50%;
+    width: 70%;
+    margin: 60px auto 0px auto;
 }
 
 td,
 th {
     border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
+    text-align: center;
+    padding: 30px;
+}
+
+td a {
+    color: black;
 }
 
 tr:nth-child(even) {
     background-color: #dddddd;
+}
+
+.h-80 {
+    height: 80%;
+}
+
+.backgr {
+    background-color: white;
 }

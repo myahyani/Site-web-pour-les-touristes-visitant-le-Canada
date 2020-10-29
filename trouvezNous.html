@@ -1,49 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="img/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <title>YahyaniTours</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 
 <body>
+    <div class="info" id="info">
+        Appelez-nous au : +1 (514) 863-2918 📞| De 8h à 21h | 7j/7
+    </div>
+    <div class="nav">
+        <ul id="header">
+            <li><a href="plainte.php">Plainte</a></li>
+            <li><a href="Cities.php?qst=Ottawa">Ottawa</a></li>
+            <li><a href="Cities.php?qst=Montreal">Montreal</a></li>
+            <li><a href="Cities.php?qst=Hamilton">Hamilton</a></li>
+            <li><a href="Cities.php?qst=Vancouver">Vancouver</a></li>
+            <li><a href="Cities.php?qst=Toronto">Toronto</a></li>
+            <li><a class="active" href="index.html">Accueil</a></li>
+            <li class="logo"><a href="index.html">Yahyani<span class="text-primary">Tours<i class="ri-compass-discover-line"></i></span></a></li>
+        </ul>
+    </div>
+    <div class="section-0 h-80">
+        <div class="section-4 paragraph">
+            <h2>Trouvez-nous</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ville</th>
+                        <th>Localisation</th>
+                        <th>N° Télephone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hamilton</td>
+                        <td><a href="https://www.google.com/maps/place/Hamilton,+ON/@43.2604685,-80.2133321,10z/data=!3m1!4b1!4m5!3m4!1s0x882c986c27de778f:0x2b6aee56d8df0e21!8m2!3d43.2557206!4d-79.8711024" target="_blank">Map <i class="ri-external-link-line"></i></a></td>
+                        <td>(999) 123-4567</td>
+                    </tr>
+                    <tr>
+                        <td>Montreal</td>
+                        <td><a href="https://www.google.com/maps/place/Montr%C3%A9al,+QC/@45.5579564,-73.8703844,11z/data=!3m1!4b1!4m5!3m4!1s0x4cc91a541c64b70d:0x654e3138211fefef!8m2!3d45.5016889!4d-73.567256" target="_blank">Map <i class="ri-external-link-line"></i></a></td>
+                        <td>(999) 978-6543</td>
+                    </tr>
+                    <tr>
+                        <td>Ottawa</td>
+                        <td><a href="https://www.google.com/maps/place/Ottawa,+ON/@45.249814,-76.0804329,10z/data=!3m1!4b1!4m5!3m4!1s0x4cce05b25f5113af:0x8a6a51e131dd15ed!8m2!3d45.4215296!4d-75.6971931" target="_blank">Map <i class="ri-external-link-line"></i></a></td>
+                        <td>(999) 852-9874</td>
+                    </tr>
+                    <tr>
+                        <td>Toronto</td>
+                        <td><a href="https://www.google.com/maps/place/Toronto,+ON/@43.7181557,-79.5181401,11z/data=!3m1!4b1!4m5!3m4!1s0x89d4cb90d7c63ba5:0x323555502ab4c477!8m2!3d43.653226!4d-79.3831843" target="_blank">Map <i class="ri-external-link-line"></i></a></td>
+                        <td>(999) 632-7854</td>
+                    </tr>
+                    <tr>
+                        <td>Vancouver</td>
+                        <td><a href="https://www.google.com/maps/place/Vancouver,+BC/@49.2577143,-123.1939433,12z/data=!3m1!4b1!4m5!3m4!1s0x548673f143a94fb3:0xbb9196ea9b81f38b!8m2!3d49.2827291!4d-123.1207375" target="_blank">Map <i class="ri-external-link-line"></i></a></td>
+                        <td>(999) 658-4567</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--  FOOTER START -->
 
-    <h2>Trouvez-nous</h2>
-    <table>
-        <thead>
-            <th>Ville</th>
-            <th>Localisation</th>
-            <th>N° Télephone</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Hamilton</td>
-                <td><a href="https://www.google.com/maps/place/Hamilton,+ON/@43.2604685,-80.2133321,10z/data=!3m1!4b1!4m5!3m4!1s0x882c986c27de778f:0x2b6aee56d8df0e21!8m2!3d43.2557206!4d-79.8711024">Map <i class="ri-external-link-line"></i></a></td>
-                <td>(999) 123-4567</td>
-            </tr>
-            <tr>
-                <td>Montreal</td>
-                <td><a href="https://www.google.com/maps/place/Montr%C3%A9al,+QC/@45.5579564,-73.8703844,11z/data=!3m1!4b1!4m5!3m4!1s0x4cc91a541c64b70d:0x654e3138211fefef!8m2!3d45.5016889!4d-73.567256">Map <i class="ri-external-link-line"></i></a></td>
-                <td>(999) 978-6543</td>
-            </tr>
-            <tr>
-                <td>Ottawa</td>
-                <td><a href="https://www.google.com/maps/place/Ottawa,+ON/@45.249814,-76.0804329,10z/data=!3m1!4b1!4m5!3m4!1s0x4cce05b25f5113af:0x8a6a51e131dd15ed!8m2!3d45.4215296!4d-75.6971931">Map <i class="ri-external-link-line"></i></a></td>
-                <td>(999) 852-9874</td>
-            </tr>
-            <tr>
-                <td>Toronto</td>
-                <td><a href="https://www.google.com/maps/place/Toronto,+ON/@43.7181557,-79.5181401,11z/data=!3m1!4b1!4m5!3m4!1s0x89d4cb90d7c63ba5:0x323555502ab4c477!8m2!3d43.653226!4d-79.3831843">Map <i class="ri-external-link-line"></i></a></td>
-                <td>(999) 632-7854</td>
-            </tr>
-            <tr>
-                <td>Vancouver</td>
-                <td><a href="https://www.google.com/maps/place/Vancouver,+BC/@49.2577143,-123.1939433,12z/data=!3m1!4b1!4m5!3m4!1s0x548673f143a94fb3:0xbb9196ea9b81f38b!8m2!3d49.2827291!4d-123.1207375">Map <i class="ri-external-link-line"></i></a></td>
-                <td>(999) 658-4567</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="footer">
+        <div class="inner-footer">
+            <div class="footer-items">
+                <h1 style="margin-bottom: 5px;">Yahyani<span class="text-primary">Tours<i class="ri-compass-discover-line"></i></span></h1>
+                <p>WALKING TOURS IN FIVE<br>CANADIAN CITIES.</p>
+            </div>
+            <div class="footer-items">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">
+                        Accueil</a></li>
+
+                    <li><a href="plainte.php">
+                        Plainte</a></li>
+
+                    <li><a href="apropos.html">
+                        About</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-items">
+                <h3>Cities</h3>
+                <ul>
+                    <li><a href="Cities.php?qst=Toronto">
+                        Toronto</a></li>
+
+                    <li><a href="Cities.php?qst=Vancouver">
+                        Vancouver</a></li>
+
+                    <li><a href="Cities.php?qst=Hamilton">
+                        Hamilton</a></li>
+
+                    <li><a href="Cities.php?qst=Montreal">
+                        Montreal</a></li>
+
+                    <li><a href="Cities.php?qst=Ottawa">
+                        Ottawa</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-items">
+                <h3>Contact us</h3>
+                <ul>
+                    <li><i class="fa fa-map-marker"></i>Montreal Gouin Boulevard, Canada</li>
+                    <li><i class="fa fa-envelope"></i>yahyaniTours@gmail.com</li>
+                    <li><i class="fa fa-phone"></i>+1 (514) 863-2918</li>
+                </ul>
+                <div class="social-media">
+                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                    <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                    <a href="#"><i class="ri-youtube-fill"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
