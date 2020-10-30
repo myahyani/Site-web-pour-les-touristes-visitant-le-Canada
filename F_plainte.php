@@ -81,7 +81,7 @@ file_put_contents('plaintes.txt', $text, FILE_APPEND);
                 </ul>
             </div>
             <div class="footer-items">
-                <h3>Contactez nous</h3>
+                <h3>Contactez-nous</h3>
                 <ul>
                     <li><i class="fa fa-map-marker"></i>Montreal Gouin Boulevard, Canada</li>
                     <li><i class="fa fa-envelope"></i>yahyaniTours@gmail.com</li>

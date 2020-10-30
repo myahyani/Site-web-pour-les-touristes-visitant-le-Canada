@@ -2,7 +2,7 @@
 $city=$_GET["qst"];
 if($city=="Toronto"){
     $img="img/hero-toronto.jpg";
-    $title="DÉCOUVREZ LE CÔTÉ LOCAL DE <span class=\"text-primary\">TORONTO</span><br>REJOIGNEZ-NOUS POUR UNE VISITE GUIDEE PAR DES EXPERTS";
+    $title="DÉCOUVREZ LE CÔTÉ LOCAL DE <span class=\"text-primary\">TORONTO</span><br>REJOIGNEZ-NOUS POUR UNE VISITE GUIDÉE PAR DES EXPERTS";
     $paragraph="L'équipe YahyaniTour Toronto propose des visites régulières tout au long de l'année (y compris nos célèbres visites à pied) et est le fournisseur officiel des aventures urbaines à Toronto. Nos guides sont également disponibles pour animer des visites pour des voyages scolaires, des événements spéciaux, des familles, des individus et des groupes de toutes sortes. Les guides qui dirigent nos visites de la ville sont engageants, divertissants et experts dans tout ce qui concerne Toronto !.";
     $Duration="60 minutes";
     $Price="$ 279 ";
@@ -14,20 +14,20 @@ if($city=="Toronto"){
     $Price="$159";
 }elseif($city=="Hamilton"){
     $img="img/hero-hamilton.jpg";
-    $title="ENTENDRE  <span class=\"text-primary\">HAMILTON</span> HISTOIRE DU BORD DE L'EAU PAR UN EXPERT LOCAL!";
-    $paragraph="Rejoignez YahyaniTour pour une visite à pied gratuite à Hamilton! Autrefois une ville sidérurgique industrielle, Hamilton a été revitalisée ces dernières années pour inclure de nombreux avantages culturels! C'est désormais une ville animée qui comprend des studios d'art, des bars branchés, une variété de restaurants et des boutiques uniques. Admirez la vue sur le magnifique port, découvrez les bizarreries cachées de Hamilton et découvrez comment cette ville est passée d'une friche industrielle oubliée à la charmante métropole qu'elle est aujourd'hui!";
-    $Duration="90 minutes";
-    $Price="$ 99";
-}elseif($city=="Montreal"){
-    $img="img/hero-Montreal.jpg";
-    $title="DEVENEZ AMBASSADEUR DE <span class=\"text-primary\">MONTREAL!</span>";
-    $paragraph=" Montréal accueille des millions de visiteurs chaque année. Dans de nombreux cas, ces visiteurs découvrent la ville à travers les yeux d'une personne qui joue un rôle clé dans leur voyage: leur guide touristique. <br> Souhaitez-vous travailler comme guide, ou perfectionner vos compétences si vous travaillez déjà en le champ? Ce programme est un atout de premier ordre qui vous donnera accès à un poste de choix dans l'industrie touristique montréalaise. Il fera de vous LA ressource recherchée non seulement par les touristes visitant la ville, mais aussi par les organisateurs de congrès, les établissements hôteliers et de nombreux autres opérateurs touristiques.";
+    $title="ENTENDRE L'HISTOIRE DU BORD DE L'EAU D'<span class=\"text-primary\">HAMILTON</span> PAR UN EXPERT LOCAL!";
+    $paragraph="Rejoignez YahyaniTour pour une visite à pied gratuite à Hamilton! Autrefois une ville sidérurgique industrielle, Hamilton a été revitalisée ces dernières années pour inclure de nombreux avantages culturels! C'est désormais une ville animée qui comprend des studios d'art, des bars branchés, une variété de restaurants et des boutiques uniques. Admirez la vue sur le magnifique port, découvrez les bizarreries cachées d'Hamilton et découvrez comment cette ville est passée d'une friche industrielle oubliée à la charmante métropole qu'elle est aujourd'hui!";
     $Duration="90 minutes";
     $Price="Gratuit! Nous vous demandons seulement de donner un pourboire à votre guide à la fin si vous avez apprécié la visite.";
+}elseif($city=="Montreal"){
+    $img="img/hero-Montreal.jpg";
+    $title="DEVENEZ AMBASSADEUR DE <span class=\"text-primary\">MONTRÉAL!</span>";
+    $paragraph=" Montréal accueille des millions de visiteurs chaque année. Dans de nombreux cas, ces visiteurs découvrent la ville à travers les yeux d'une personne qui joue un rôle clé dans leur voyage: leur guide touristique.";
+    $Duration="90 minutes";
+    $Price="$ 99";
 }elseif($city=="Ottawa"){
     $img="img/hero-ottawa.jpg";
     $title="VISITES PERSONNALISÉES ET PRIVÉES À <span class=\"text-primary\">OTTAWA</span><br>POUR LES INDIVIDUS OU GROUPES DE TOUTES TAILLES";
-    $paragraph="Considérez YahyaniTour comme votre «guichet unique» pour tous les services de guide et la planification d'itinéraire d'une journée dont vous pourriez avoir besoin. Que vous soyez un voyageur seul ou une famille en vacances, un planificateur d'événements d'entreprise à la recherche de quelque chose d'amusant à faire avec votre personnel ou un voyagiste à la recherche d'une expérience unique pour vos clients, nous pouvons créer une visite personnalisée ou modifier l'un de nos des circuits existants adaptés à vos besoins et à votre budget! ";
+    $paragraph="Considérez YahyaniTour comme votre «guichet unique» pour tous les services de guide et la planification d'itinéraire d'une journée dont vous pourriez avoir besoin. Que vous soyez un voyageur seul ou une famille en vacances, un planificateur d'événements d'entreprise à la recherche de quelque chose d'amusant à faire avec votre personnel ou un voyagiste à la recherche d'une expérience unique pour vos clients, nous pouvons créer une visite personnalisée ou modifier l'un de nos circuits existants adaptés à vos besoins et à votre budget! ";
     $Duration="50 minutes";
     $Price="$ 59";
 }else{
@@ -120,7 +120,7 @@ if($city=="Toronto"){
                 </ul>
             </div>
             <div class="footer-items">
-                <h3>Contactez nous</h3>
+                <h3>Contactez-nous</h3>
                 <ul>
                     <li><i class="fa fa-map-marker"></i>Montreal Gouin Boulevard, Canada</li>
                     <li><i class="fa fa-envelope"></i>yahyaniTours@gmail.com</li>
