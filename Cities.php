@@ -1,3 +1,10 @@
+<!--
+ * @author Mohamed Yahyani
+ * @Code_Permanent: YAHM14059203
+ * @Courriel: yahyani.mohamed@courrier.uqam.ca
+ * @Cours: INF3190-40
+ * @version 2020-10-29
+-->
 <?php
 $city=$_GET["qst"];
 if($city=="Toronto"){

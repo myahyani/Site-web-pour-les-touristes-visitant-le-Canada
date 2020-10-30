@@ -1,3 +1,10 @@
+<!--
+ * @author Mohamed Yahyani
+ * @Code_Permanent: YAHM14059203
+ * @Courriel: yahyani.mohamed@courrier.uqam.ca
+ * @Cours: INF3190-40
+ * @version 2020-10-29
+-->
 <?php
 
 $text= "\nNom:".$_POST["Nom"]." Prénom:".$_POST["Prenom"]." E-mail:".$_POST["email"]." Contre:".$_POST["contre"]." Plainte:".$_POST["Plainte"];
